@@ -1,0 +1,51 @@
+ body, html {
+    height: 100%
+  }
+  
+  .background {
+    background-image: url('./img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: Futura;
+    font-size: 25px;
+  }
+/* 
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  } */
+  
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+  
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
